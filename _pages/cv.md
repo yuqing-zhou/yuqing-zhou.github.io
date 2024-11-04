@@ -11,13 +11,13 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* PhD Student, Computer Science, George Mason University, Fairfax, VA, USA (08/2023 - Present)
+* M.S., Electrical and Computer Engineering, University of Michigan, Ann Arbor, MI, USA (08/2019 - 04/2021)
+* B.Eng., Electronics Science and Technology, Southeast University, Nanjing, Jiangsu, China (08/2015 - 06/2019)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
+<!-- * Spring 2024: Academic Pages Collaborator
   * Github University
   * Duties includes: Updates and improvements to template
   * Supervisor: The Users
@@ -25,21 +25,35 @@ Work experience
 * Fall 2015: Research Assistant
   * Github University
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Professor Hub -->
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Teaching Assistant (08/2024 - Present)
+  * George Mason University, Fairfax, VA, USA
+  <!-- * Duties included: Merging pull requests -->
+  * Course: CS 455 Computer Communications and Networking
+  
+* Research Assistant (08/2023 - Present)
+  * George Mason University, Fairfax, VA, USA
+  <!-- * Duties included: Merging pull requests -->
+  * Supervisor: Dr. Ziwei Zhu
+  Investigate spurious correlations in machine learning models and propose methods for model debiasing.
+
+* Software Engineer (08/2021 - 05/2023)
+  * Shanghai Huawei Technologies Co., Ltd, Shanghai, China
+  * Responsibilities: Developed the software for the baseband platform.
+  
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
+* Python
+* C/C++
+  <!-- * Sub-skill 2.1
   * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  * Sub-skill 2.3 -->
+* PyTorch
+* MATLAB
+* Julia
+<!-- * JAVA (A litt) -->
 
 Publications
 ======
@@ -47,11 +61,11 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+<!-- Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Teaching
 ======
@@ -59,6 +73,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Services
 ======
-* Currently signed in to 43 different slack teams
+* Journal Reviewers: TKDE, TOIS
+* Conference Reviewers: ICLR (2025), AISTATS (2025)
