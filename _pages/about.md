@@ -31,13 +31,13 @@ My research focuses on:
 
 ## Publications
 - **[Preprint] Towards Robust Text Classication: Mitigating Spurious Correlations with Causal Learning**  
-  ***Yuqing Zhou***, Ziwei Zhu. 2024. [Read more]()
+  ***Yuqing Zhou***, Ziwei Zhu. 2024. [paper](https://arxiv.org/abs/2411.01045)
 
 - **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models**  
-  ***Yuqing Zhou***, Ruixiang Tang, Ziyu Yao, Ziwei Zhu. 2024. [Read more](https://arxiv.org/abs/2409.17455)
+  ***Yuqing Zhou***, Ruixiang Tang, Ziyu Yao, Ziwei Zhu. 2024. [paper](https://arxiv.org/abs/2409.17455)
 
 - **[CIKM 2023] A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation**  
-  ***Yuqing Zhou***, Tianshu Feng, Mingrui Liu, Ziwei Zhu. 2023. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM '23). Association for Computing Machinery, New York, NY, USA, 3554–3563. [Read more](https://dl.acm.org/doi/abs/10.1145/3583780.3614760)
+  ***Yuqing Zhou***, Tianshu Feng, Mingrui Liu, Ziwei Zhu. 2023. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM '23). Association for Computing Machinery, New York, NY, USA, 3554–3563. [paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614760)
 
 <!-- - **Trustworthy AI in Practice: Methods and Applications**  
   Research project aimed at developing practical tools for fair and unbiased machine learning models. -->
