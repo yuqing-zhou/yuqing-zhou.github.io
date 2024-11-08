@@ -37,8 +37,8 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
-            {% if post.author %}
-              <i>{% assign highlighted_author = post.author | replace: "Yuqing Zhou", "<strong>Yuqing Zhou</strong>" %}
+            {% if page.author %}
+              <i>{% assign highlighted_author = page.author | replace: "Yuqing Zhou", "<strong>Yuqing Zhou</strong>" %}
               {{ highlighted_author }}</i>.<br>
             {% endif %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
