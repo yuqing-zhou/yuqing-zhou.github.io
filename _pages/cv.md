@@ -36,7 +36,7 @@ Work experience
   * George Mason University, Fairfax, VA, USA
   <!-- * Duties included: Merging pull requests -->
   * Supervisor: Dr. Ziwei Zhu
-  Investigate spurious correlations in machine learning models and propose methods for model debiasing.
+  * Responsibilities: Investigate spurious correlations in machine learning models and propose methods for model debiasing.
 
 * Software Engineer (08/2021 - 05/2023)
   * Shanghai Huawei Technologies Co., Ltd, Shanghai, China
