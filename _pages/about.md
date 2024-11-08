@@ -31,14 +31,17 @@ My research focuses on:
 
 ## Publications
 - **[Preprint 2024] Towards Robust Text Classication: Mitigating Spurious Correlations with Causal Learning** [paper](https://arxiv.org/abs/2411.01045)
+  
   ***Yuqing Zhou***, Ziwei Zhu. 
   
 
 - **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models** [paper](https://arxiv.org/abs/2409.17455)
+  
   ***Yuqing Zhou***, Ruixiang Tang, Ziyu Yao, Ziwei Zhu. 
   
 
 - **[CIKM 2023] A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation** [paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614760)
+  
   ***Yuqing Zhou***, Tianshu Feng, Mingrui Liu, Ziwei Zhu. 
   
 
