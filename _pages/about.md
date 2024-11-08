@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<!-- ## Introduction -->
+## About Me
 
 I am a PhD student in Computer Science at George Mason University. I am interested in Trustworthy AI. My recent work focuses on mitigating spurious correlations and debiasing machine learning models to enhance robustness.
 
