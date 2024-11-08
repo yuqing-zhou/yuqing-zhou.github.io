@@ -47,9 +47,7 @@ Skills
 ======
 * Python
 * C/C++
-  <!-- * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3 -->
+  <!-- * Sub-skill 2.1 Sub-skill 2.2 Sub-skill 2.3 -->
 * PyTorch
 * MATLAB
 * Julia
