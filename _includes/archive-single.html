@@ -43,8 +43,8 @@
         {% elsif post.collection == 'publications' %}
           <p>
             {% if post.author %}
-              {% assign highlighted_author = post.author | replace: "Yuqing Zhou", "<strong>Yuqing Zhou</strong>" %}
-              {{ highlighted_author }}.<br>
+              <i>{% assign highlighted_author = post.author | replace: "Yuqing Zhou", "<strong>Yuqing Zhou</strong>" %}
+              {{ highlighted_author }}</i>.<br>
             {% endif %}
             <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}
           </p>
