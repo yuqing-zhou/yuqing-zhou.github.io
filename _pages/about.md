@@ -30,17 +30,17 @@ My research focuses on:
 - Causal Inference
 
 ## Publications
-- **[Preprint] Towards Robust Text Classication: Mitigating Spurious Correlations with Causal Learning**  
-  ***Yuqing Zhou***, Ziwei Zhu. 2024. 
-  [paper](https://arxiv.org/abs/2411.01045)
+- **[Preprint 2024] Towards Robust Text Classication: Mitigating Spurious Correlations with Causal Learning** [paper](https://arxiv.org/abs/2411.01045)
+  ***Yuqing Zhou***, Ziwei Zhu. 
+  
 
-- **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models**  
+- **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models** [paper](https://arxiv.org/abs/2409.17455)
   ***Yuqing Zhou***, Ruixiang Tang, Ziyu Yao, Ziwei Zhu. 
-  [paper](https://arxiv.org/abs/2409.17455)
+  
 
-- **[CIKM 2023] A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation**  
+- **[CIKM 2023] A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation** [paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614760)
   ***Yuqing Zhou***, Tianshu Feng, Mingrui Liu, Ziwei Zhu. 
-  [paper](https://dl.acm.org/doi/abs/10.1145/3583780.3614760)
+  
 
 <!-- 2023. In Proceedings of the 32nd ACM International Conference on Information and Knowledge Management (CIKM '23). Association for Computing Machinery, New York, NY, USA, 3554–3563.  -->
 
