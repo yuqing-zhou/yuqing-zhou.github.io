@@ -8,11 +8,22 @@ redirect_from:
 ---
 ## About Me
 
-I am a PhD student in Computer Science at George Mason University. I am interested in Trustworthy AI. My recent work focuses on mitigating spurious correlations and debiasing machine learning models to enhance robustness.
+I am a PhD student in Computer Science at George Mason University, working with Prof. [Ziwei Zhu](https://zziwei.github.io/). Before that, I earned my master’s degree from the University of Michigan, with a focus on computer vision, and my bachelor’s degree from Southeast University.
+
+My research focuses on trustworthy machine learning, and interpretable machine learning, and causal inference in AI. Feel free to drop me an email if you share similar interests or would like to collaborate.
 
 <div style="background-color: #f0f8ff; padding: 10px; border-radius: 5px; font-weight: bold; text-align: center;">
   I am actively seeking a research internship for Summer 2025.
 </div>
+
+
+## Research Interests
+
+ I am broadly interested in Trustworthy AI. Currently, I focus on the following areas:
+ - **Robust Machine Learning**: Machine learning models often rely on shortcuts based on spurious correlations, which limits their generalizability and leads to failures. My research focuses on mitigating these issues through debiasing and enhancing model robustness.
+ - **Knowledge/Model Editing**: Model editing is an efficient way to update the knowledge stored within models. However, existing methods often struggle with questions that require multi-hop reasoning. I am interested in understanding why these limitations arise and exploring solutions to address them.
+ - **Causal Inference in Models**: I am particularly interested in exploring how machine learning models can perform causal inference. My long-term goal is to enable models to go beyond correlation-based reasoning and develop a true understanding of cause-and-effect relationships.
+
 
 ## Education
 
@@ -20,16 +31,8 @@ I am a PhD student in Computer Science at George Mason University. I am interest
 - **M.S., Electrical and Computer Engineering** - University of Michigan, Ann Arbor, MI, USA (08/2019 - 04/2021)
 - **B.Eng., Electronics Science and Technology** - Southeast University, Nanjing, Jiangsu, China (08/2015 - 06/2019)
 
-## Research Interests
-
-My research focuses on:
-
-- Trustworthy AI
-- Model Debiasing
-- Causal Inference
-
 ## Publications
-- **[Preprint 2024] Towards Robust Text Classication: Mitigating Spurious Correlations with Causal Learning** ([paper](https://arxiv.org/abs/2411.01045))
+- **[NAACL 2025] Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective** ([Preprint](https://arxiv.org/abs/2411.01045))
   
   ***Yuqing Zhou***, Ziwei Zhu. 
   

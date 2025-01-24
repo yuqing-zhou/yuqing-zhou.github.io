@@ -30,7 +30,7 @@ Work experience
 * Teaching Assistant (08/2024 - Present)
   * George Mason University, Fairfax, VA, USA
   <!-- * Duties included: Merging pull requests -->
-  * Course: CS 455 Computer Communications and Networking
+  * Course: CS 455 Computer Communications and Networking （Fall 2024, Spring 2025)
   
 * Research Assistant (08/2023 - Present)
   * George Mason University, Fairfax, VA, USA
@@ -40,7 +40,7 @@ Work experience
 
 * Software Engineer (08/2021 - 05/2023)
   * Shanghai Huawei Technologies Co., Ltd, Shanghai, China
-  * Responsibilities: Developed the software for the baseband platform.
+   <!-- * Responsibilities: Developed the software for the baseband platform. -->
   
   
 Skills
