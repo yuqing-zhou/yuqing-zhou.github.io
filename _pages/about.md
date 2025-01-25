@@ -19,7 +19,7 @@ My research focuses on trustworthy machine learning, and interpretable machine l
 
 ## Research Interests
 
- I am broadly interested in Trustworthy AI. Currently, I focus on the following areas:
+ I am broadly interested in Trustworthy AI. Currently, I focus on the following topics:
  - **Robust Machine Learning**: Machine learning models often rely on shortcuts based on spurious correlations, which limits their generalizability and leads to failures. My research focuses on mitigating these issues through debiasing and enhancing model robustness.
  - **Knowledge/Model Editing**: Model editing is an efficient way to update the knowledge stored within models. However, existing methods often struggle with questions that require multi-hop reasoning. I am interested in understanding why these limitations arise and exploring solutions to address them.
  - **Causal Inference in Models**: I am particularly interested in exploring how machine learning models can perform causal inference. My long-term goal is to enable models to go beyond correlation-based reasoning and develop a true understanding of cause-and-effect relationships.
