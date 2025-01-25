@@ -10,7 +10,7 @@ redirect_from:
 
 I am a PhD student in Computer Science at George Mason University, working with Prof. [Ziwei Zhu](https://zziwei.github.io/). Before that, I earned my master’s degree from the University of Michigan, with a focus on computer vision, and my bachelor’s degree from Southeast University.
 
-My research focuses on trustworthy machine learning, and interpretable machine learning, and causal inference in AI. Feel free to drop me an email if you share similar interests or would like to collaborate.
+My research focuses on trustworthy machine learning, interpretable machine learning, and causal inference in AI. Feel free to drop me an email if you share similar interests or would like to collaborate.
 
 <div style="background-color: #f0f8ff; padding: 10px; border-radius: 5px; font-weight: bold; text-align: center;">
   I am actively seeking a research internship for Summer 2025.
