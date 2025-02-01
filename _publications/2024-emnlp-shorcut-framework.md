@@ -6,7 +6,7 @@ permalink: /publication/2024-emnlp-shortcut-framework
 excerpt: ''
 date: 2024-09-26
 venue: 'Findings of EMNLP'
-paperurl: 'https://arxiv.org/abs/2409.17455'
+paperurl: 'https://aclanthology.org/2024.findings-emnlp.146/'
 author: Yuqing Zhou, Ruixiang Tang, Ziyu Yao, Ziwei Zhu
 # citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
 ---

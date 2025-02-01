@@ -32,12 +32,12 @@ My research focuses on trustworthy machine learning, interpretable machine learn
 - **B.Eng., Electronics Science and Technology** - Southeast University, Nanjing, Jiangsu, China (08/2015 - 06/2019)
 
 ## Publications
-- **[NAACL 2025] Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective** ([Preprint](https://arxiv.org/abs/2411.01045))
+- **[NAACL 2025] Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective** ([paper](https://openreview.net/pdf?id=ThX9KOezqc))
   
   ***Yuqing Zhou***, Ziwei Zhu. 
   
 
-- **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models** ([paper](https://arxiv.org/abs/2409.17455))
+- **[Findings of EMNLP 2024] Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models** ([paper](https://aclanthology.org/2024.findings-emnlp.146/))
   
   ***Yuqing Zhou***, Ruixiang Tang, Ziyu Yao, Ziwei Zhu. 
   
