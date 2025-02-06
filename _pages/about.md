@@ -32,7 +32,7 @@ My research focuses on trustworthy machine learning, interpretable machine learn
 - **B.Eng., Electronics Science and Technology** - Southeast University, Nanjing, Jiangsu, China (08/2015 - 06/2019)
 
 ## Publications
-- **[NAACL 2025] Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective** ([paper](https://openreview.net/pdf?id=ThX9KOezqc))
+- **[NAACL 2025] Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective** ([paper](https://arxiv.org/abs/2411.01045))
   
   ***Yuqing Zhou***, Ziwei Zhu. 
   
