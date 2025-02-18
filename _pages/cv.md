@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Resume](https://yuqing-zhou.github.io/files/Resume_Yuqing_Zhou.pdf)
+
 Education
 ======
 * PhD Student, Computer Science, George Mason University, Fairfax, VA, USA (08/2023 - Present)
