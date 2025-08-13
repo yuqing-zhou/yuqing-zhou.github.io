@@ -79,5 +79,5 @@ Teaching
   
 Services
 ======
-* Journal Reviewers: TKDE, TOIS
+* Journal Reviewers: TKDE, TOIS, TORS
 * Conference Reviewers: ICLR (2025), AISTATS (2025)
