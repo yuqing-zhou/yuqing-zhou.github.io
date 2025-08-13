@@ -28,13 +28,17 @@ Work experience
   * Github University
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub -->
-
-* Teaching Assistant (08/2024 - Present)
+* Applied Scientist Intern (05/2025 - 05/2025)
+  * Amazon Web Services, Seattle, WA, USA
+  <!-- * Duties included: Merging pull requests -->
+  * Responsibilities: Research on Agentic Conversational AI Assistant.
+  * 
+* Teaching Assistant (08/2024 - 05/2025)
   * George Mason University, Fairfax, VA, USA
   <!-- * Duties included: Merging pull requests -->
   * Course: CS 455 Computer Communications and Networking （Fall 2024, Spring 2025)
   
-* Research Assistant (08/2023 - Present)
+* Research Assistant (08/2023 - 08/2024)
   * George Mason University, Fairfax, VA, USA
   <!-- * Duties included: Merging pull requests -->
   * Supervisor: Dr. Ziwei Zhu
