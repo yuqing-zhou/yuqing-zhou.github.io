@@ -32,7 +32,7 @@ Work experience
   * Amazon Web Services, Seattle, WA, USA
   <!-- * Duties included: Merging pull requests -->
   * Responsibilities: Research on Agentic Conversational AI Assistant.
-  * 
+  
 * Teaching Assistant (08/2024 - 05/2025)
   * George Mason University, Fairfax, VA, USA
   <!-- * Duties included: Merging pull requests -->
