@@ -88,7 +88,7 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Trustworthy AI.
+    - title: Trustworthy AI
       items:
         - Robust Machine Learning, mitigating spurious correlations with causality.
     - title: LLMs
