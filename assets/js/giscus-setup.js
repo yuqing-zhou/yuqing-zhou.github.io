@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "yuqing-zhou/yuqing-zhou1.github.io",
+    "data-repo": "yuqing-zhou/yuqing-zhou.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
