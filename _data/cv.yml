@@ -89,8 +89,8 @@
   type: nested_list
   contents:
     - title: Trustworthy AI
-      items:
-        - Robust Machine Learning, mitigating spurious correlations with causality.
+      # items:
+      #   - Robust Machine Learning, mitigating spurious correlations with causality.
     - title: LLMs
       # items:
       #   - Description 1.
