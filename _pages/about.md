@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> yzhou31'at'gmu.edu </p>
+    <p> yzhou31`at'gmu.edu </p>
     <p> Fairfax, VA 22030 </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
