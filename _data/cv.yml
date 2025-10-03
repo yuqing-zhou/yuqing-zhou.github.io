@@ -56,19 +56,9 @@
 
 - title: Skills
   type: list
-  contents: Pytorch, Python, C/C++, Numpy, MATLAB, Julia, 
+  contents: Pytorch, Python, C/C++, Numpy, MATLAB, Julia
 
 
-  "projects": [
-    {
-      "name": "Conversational AI agents",
-      "summary": "Designed a framework for building self-evolving AI agents",
-      "highlights": ["Conversational AI agents", "Automatic", "Self-evolving"],
-      "startDate": "2025-05-27",
-      "endDate": "2025-08-22",
-      "url": ""
-    }
-  ]
 
 # - title: Open Source Projects
 #   type: time_table
@@ -106,8 +96,10 @@
 - title: Services
   type: list
   contents:
-    - Journal Reviewers: TKDE, TOIS, TORS
-    - Conference Reviewers: ICLR (2025), AISTATS (2025)
+    - title: Journal Reviewers
+      description: TKDE, TOIS, TORS
+    - title: Conference Reviewers
+      description: ICLR (2025), AISTATS (2025)
 
 # - title: Other Interests
 #   type: list
