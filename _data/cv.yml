@@ -94,12 +94,12 @@
       #   - Description 2.
 
 - title: Services
-  type: list
+  type: map
   contents:
-    - title: Journal Reviewers
-      description: TKDE, TOIS, TORS
-    - title: Conference Reviewers
-      description: ICLR (2025), AISTATS (2025)
+    - name: Journal Reviewers
+      value: TKDE, TOIS, TORS
+    - name: Conference Reviewers
+      value: ICLR (2025), AISTATS (2025)
 
 # - title: Other Interests
 #   type: list
