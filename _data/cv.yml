@@ -100,6 +100,11 @@
       #   - Description 1.
       #   - Description 2.
 
+- title: Services
+  type: list
+  contents:
+    - <u>Journal Reviewers:</u> TKDE, TOIS, TORS
+    - <u>Conference Reviewers:</u> ICLR (2025), AISTATS (2025)
 
 # - title: Other Interests
 #   type: list
