@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>George Mason University</a>. yzhou31 at gmu.edu # Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>George Mason University</a>. yzhou31 'at' gmu.edu # Address. Contacts. Motto. Etc.
 
 profile:
   align: right
