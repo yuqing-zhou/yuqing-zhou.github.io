@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>George Mason University</a>. yzhou31 'at' gmu.edu # Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -10,9 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>PhD Student @ GMUCS</p>
+    <p>yzhou31@gmu.edu</p>
     <p>Fairfax, VA 22030</p>
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
