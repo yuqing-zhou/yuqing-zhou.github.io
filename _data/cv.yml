@@ -1,12 +1,13 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Yuqing Zhou
-    # - name: Date of Birth
-      # value: 14th March 1879
-    - name: Languages
-      value: Chinese, English
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Yuqing Zhou
+#     # - name: Date of Birth
+#       # value: 14th March 1879
+#     - name: Languages
+#       value: Chinese, English
+
 
 - title: Education
   type: time_table
