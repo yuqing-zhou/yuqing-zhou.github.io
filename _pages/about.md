@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: photo70.png
+  image: photo.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> yzhou31`at'gmu.edu </p>
@@ -28,3 +28,8 @@ latest_posts:
 I am a PhD student in Computer Science at George Mason University, working with [Prof. Ziwei Zhu](https://zziwei.github.io/). Before that, I earned my master’s degree from the University of Michigan, with a focus on computer vision, and my bachelor’s degree from Southeast University.
 
 My research focuses on trustworthy machine learning, interpretable machine learning, and causal inference in AI. Feel free to drop me an email if you share similar interests or would like to collaborate.
+
+<div style="background-color: #f0f8ff; padding: 10px; border-radius: 5px; font-weight: bold; text-align: left;">
+  I am actively seeking a research internship for Summer 2026.
+</div>
+
