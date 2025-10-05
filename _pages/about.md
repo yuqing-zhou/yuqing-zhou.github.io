@@ -29,13 +29,15 @@ I am a PhD student in Computer Science at George Mason University, working with 
 
 My research focuses on trustworthy machine learning, interpretable machine learning, and causal inference in AI. Feel free to drop me an email if you share similar interests or would like to collaborate.
 
-<div style="clear: right;">
-  <div style="background-color: #f0f8ff;
-              padding: 10px;
-              border-radius: 5px;
-              font-weight: bold;">
-    I am actively seeking a research internship for Summer 2026.
-  </div>
+<div style="background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            text-align: center;
+            overflow: hidden; /* 或 clear:right; 都行 */
+            display: inline-block;
+            max-width: 100%;">
+  I am actively seeking a research internship for Summer 2026.
 </div>
 
 
