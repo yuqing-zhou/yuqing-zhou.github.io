@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: photo.png
+  image: photo70.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p> yzhou31`at'gmu.edu </p>
