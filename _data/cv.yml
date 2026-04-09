@@ -82,6 +82,14 @@
 - title: Academic Interests
   type: nested_list
   contents:
+    - title: Self-evolving AI
+      # items:
+      #   - Description 1.
+      #   - Description 2.
+    - title: Continual Learning
+      # items:
+      #   - Description 1.
+      #   - Description 2.
     - title: Trustworthy AI
       # items:
       #   - Robust Machine Learning, mitigating spurious correlations with causality.
@@ -89,18 +97,15 @@
       # items:
       #   - Description 1.
       #   - Description 2.
-    - title: Self-evolving AI
-      # items:
-      #   - Description 1.
-      #   - Description 2.
+    
 
 - title: Services
   type: map
   contents:
     - name: Journal Reviewers
-      value: TKDE, TOIS, TORS
+      value: TKDE, TOIS, TORS, TIST
     - name: Conference Reviewers
-      value: ICLR (2025), AISTATS (2025)
+      value: ICLR (2025, 2026), AISTATS (2025), SIGKDD (2026), PAKDD (2026)
 
 - title: Teaching
   type: time_table
