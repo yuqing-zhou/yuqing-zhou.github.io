@@ -8,7 +8,6 @@
 #     - name: Languages
 #       value: Chinese, English
 
-
 - title: Education
   type: time_table
   contents:
@@ -59,25 +58,23 @@
   type: list
   contents: Pytorch, Python, C/C++, Numpy, MATLAB, Julia
 
-
-
 # - title: Open Source Projects
 #   type: time_table
 #   contents:
-    # - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-    #   year: 2015-now
-    #   description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+# - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
+#   year: 2015-now
+#   description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 # - title: Honors and Awards
 #   type: time_table
 #   contents:
-    # - year: 1921
-    #   items:
-    #     - Nobel Prize in Physics
-    #     - Matteucci Medal
-    # - year: 2029
-    #   items:
-    #     - Max Planck Medal
+# - year: 1921
+#   items:
+#     - Nobel Prize in Physics
+#     - Matteucci Medal
+# - year: 2029
+#   items:
+#     - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
@@ -97,7 +94,6 @@
       # items:
       #   - Description 1.
       #   - Description 2.
-    
 
 - title: Services
   type: map
@@ -110,7 +106,7 @@
 - title: Teaching
   type: time_table
   contents:
-    - title:  CS 455 - Computer Communications and Networking (GTA)
+    - title: CS 455 - Computer Communications and Networking (GTA)
       institution: George Mason University
       year: Spring 2025
       # description:
@@ -120,10 +116,9 @@
       #     contents:
       #       - Sub-description 1.
       #       - Sub-description 2.
-    - title:  CS 455 - Computer Communications and Networking (GTA)
+    - title: CS 455 - Computer Communications and Networking (GTA)
       institution: George Mason University
       year: Fall 2024
-      
 # - title: Other Interests
 #   type: list
 #   contents:
