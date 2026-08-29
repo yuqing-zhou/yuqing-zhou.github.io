@@ -5,7 +5,7 @@
     "image": "assets/img/photo70.png",
     "email": "yzhou31@gmu.edu",
     "url": "https://yuqing-zhou.github.io",
-    "summary": "Researcher in self-evolving AI, efficient LLM reasoning and post-training, and trustworthy machine learning.",
+    "summary": "Research interests in self-evolving AI, reasoning RL, agentic RL, autonomous agents, continual learning, and trustworthy AI.",
     "location": {
       "city": "Fairfax",
       "countryCode": "US",
@@ -129,7 +129,7 @@
   "interests": [
     {
       "name": "Research",
-      "keywords": ["Self-evolving AI", "LLM Reasoning", "LLM Post-training", "Trustworthy AI"]
+      "keywords": ["Self-Evolving AI", "Reasoning RL", "Agentic RL", "Autonomous Agents", "Continual Learning", "Trustworthy AI"]
     }
   ]
 }

@@ -27,19 +27,21 @@ latest_posts:
 ---
 
 <div class="home-intro">
-  <p class="home-eyebrow">TRUSTWORTHY &amp; SELF-EVOLVING AI</p>
+  <p class="home-eyebrow">RESEARCH INTERESTS</p>
 
-  <p class="home-lead">I build learning systems that can reason efficiently, improve from feedback, and remain reliable when the data or environment changes.</p>
+  <p class="home-lead">I am interested in building self-evolving AI systems that can learn to reason, act autonomously, retain experience, and continually improve over time.</p>
 
-  <p>I am a Ph.D. student in Computer Science at <a href="https://www.gmu.edu/" target="_blank" rel="noopener noreferrer">George Mason University</a>, advised by <a href="https://zziwei.github.io/" target="_blank" rel="noopener noreferrer">Prof. Ziwei Zhu</a>. My current work spans efficient LLM reasoning and post-training, self-evolving AI, and robust learning under spurious correlations.</p>
+  <p>I am a Ph.D. student in Computer Science at <a href="https://www.gmu.edu/" target="_blank" rel="noopener noreferrer">George Mason University</a>, advised by <a href="https://zziwei.github.io/" target="_blank" rel="noopener noreferrer">Prof. Ziwei Zhu</a>. My current work spans efficient LLM reasoning and post-training, self-evolution under uncertain feedback, and robust learning under spurious correlations.</p>
 
   <p>Previously, I was an Applied Scientist Intern at Amazon Web Services, where I worked on efficient LLM reasoning and agentic conversational AI. I earned an M.S. in Electrical and Computer Engineering from the University of Michigan and a B.Eng. from Southeast University.</p>
 
   <div class="research-tags" aria-label="Research interests">
-    <span>Self-evolving AI</span>
-    <span>LLM reasoning</span>
-    <span>LLM post-training</span>
+    <span>Self-Evolving AI</span>
+    <span>Continual Learning</span>
     <span>Trustworthy AI</span>
+    <span>Reasoning RL</span>
+    <span>Agentic RL</span>
+    <span>Autonomous Agents</span>
   </div>
 
   <div class="home-actions">
@@ -55,24 +57,46 @@ latest_posts:
   <span class="availability-dot" aria-hidden="true"></span>
   <div>
     <strong>Open to Summer 2027 research internships</strong>
-    <span>I would be happy to connect about LLM reasoning, post-training, and self-evolving AI.</span>
+    <span>I would be happy to connect about reasoning RL, agentic RL, self-evolving AI, and trustworthy AI.</span>
   </div>
 </div>
 
 <div class="research-overview">
-  <article class="research-card">
-    <span class="research-card-number">01</span>
-    <h3>Efficient reasoning</h3>
-    <p>Improving credit assignment during RL post-training so language models preserve useful reasoning while avoiding redundant or dead-end computation.</p>
-  </article>
-  <article class="research-card">
-    <span class="research-card-number">02</span>
-    <h3>Self-evolving AI</h3>
-    <p>Developing AI systems that improve through iterative self-refinement, confidence-aware feedback, and reliable adaptation.</p>
-  </article>
-  <article class="research-card">
-    <span class="research-card-number">03</span>
-    <h3>Robust learning</h3>
-    <p>Using causal learning to reduce reliance on spurious correlations and improve worst-group performance under distribution shift.</p>
-  </article>
+  <section class="research-branch research-branch-primary">
+    <header class="research-branch-header">
+      <span class="research-branch-label">CORE VISION</span>
+      <h2>Self-Evolving AI</h2>
+      <p>AI systems that retain experience and continually improve their reasoning and actions over time.</p>
+    </header>
+
+    <div class="research-pillars" aria-label="Capabilities for self-evolving AI">
+      <article class="research-card">
+        <span class="research-card-number">01</span>
+        <h3>Reasoning RL</h3>
+        <p>Learning how to reason effectively and efficiently through reinforcement learning.</p>
+      </article>
+      <article class="research-card">
+        <span class="research-card-number">02</span>
+        <h3>Agentic RL</h3>
+        <p>Learning how to make decisions, use tools, and act reliably in interactive environments.</p>
+      </article>
+      <article class="research-card">
+        <span class="research-card-number">03</span>
+        <h3>Autonomous Agents</h3>
+        <p>Integrating reasoning and action into continuous, long-horizon autonomous operation.</p>
+      </article>
+    </div>
+
+  </section>
+
+  <aside class="research-branch research-branch-trustworthy">
+    <span class="research-branch-label">CROSS-CUTTING PRINCIPLE</span>
+    <h2>Trustworthy AI</h2>
+    <p>Ensuring that self-evolving systems remain reliable under uncertain feedback, distribution shifts, and changing environments.</p>
+    <ul class="trustworthy-properties" aria-label="Trustworthy AI properties">
+      <li>Reliable learning</li>
+      <li>Robust adaptation</li>
+      <li>Responsible autonomy</li>
+    </ul>
+  </aside>
 </div>
