@@ -11,17 +11,24 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "",
+          description: "Research papers on self-evolving AI, robust language models, and unbiased learning.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "Research experience, education, publications, teaching, and academic service. Use the PDF icon to open the full version.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-teaching",
+          title: "Teaching",
+          description: "Teaching experience at George Mason University.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
           },
         },{id: "nav-blog",
           title: "Blog",
@@ -49,6 +56,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-glad-to-join-aws-as-an-applied-scientist-intern",
           title: 'Glad to join AWS as an Applied Scientist Intern.',
+          description: "",
+          section: "News",},{id: "news-i-returned-to-aws-as-an-applied-scientist-intern-to-work-on-efficient-llm-reasoning-and-rl-based-post-training",
+          title: 'I returned to AWS as an Applied Scientist Intern to work on efficient...',
+          description: "",
+          section: "News",},{id: "news-our-paper-confidence-orchestrated-self-evolution-against-uncertain-llm-feedback-was-accepted-to-emnlp-2026",
+          title: 'Our paper “Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback” was accepted to EMNLP 2026....',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
