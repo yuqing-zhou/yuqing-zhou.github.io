@@ -244,10 +244,11 @@ ul.task-list input[type="checkbox"] {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 1px 12px rgba(23, 32, 51, 0.04);
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.96;
+  backdrop-filter: blur(14px);
 }
 
 .navbar .dropdown-menu {
@@ -495,9 +496,9 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-size: 0.8rem;
 
   .container {
     text-align: center;
@@ -702,6 +703,19 @@ footer.sticky-bottom {
 
 .publications {
   margin-top: 2rem;
+
+  .publication-group + .publication-group {
+    margin-top: 3rem;
+  }
+
+  h2.publication-category {
+    margin: 0 0 1.25rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
 
   h1 {
     color: var(--global-theme-color);

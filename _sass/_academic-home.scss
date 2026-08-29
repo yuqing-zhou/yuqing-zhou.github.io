@@ -1,0 +1,462 @@
+/*******************************************************************************
+ * Academic homepage
+ ******************************************************************************/
+
+.academic-home {
+  font-family:
+    "Roboto",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  font-weight: 400;
+
+  .post-header {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    align-items: end;
+    gap: 1.6rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .post-title {
+    margin: 0;
+    font-family:
+      "Roboto",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
+    font-size: clamp(2.4rem, 4.6vw, 3.25rem);
+    font-weight: 500;
+    line-height: 1.04;
+    letter-spacing: -0.045em;
+  }
+
+  .desc {
+    max-width: 430px;
+    margin: 0 0 0.28rem;
+    padding-left: 1rem;
+    border-left: 2px solid var(--global-theme-color);
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+  .profile {
+    width: min(27%, 245px);
+    margin-left: 2.75rem;
+    margin-bottom: 1.25rem;
+
+    figure {
+      margin: 0;
+    }
+
+    img {
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.8rem !important;
+      box-shadow: 0 12px 32px rgba(26, 46, 69, 0.1) !important;
+    }
+
+    .more-info {
+      margin-top: 0.65rem;
+      font-family: inherit;
+      text-align: center;
+    }
+
+    .profile-location {
+      color: var(--global-text-color-light);
+      font-size: 0.78rem;
+    }
+  }
+
+  .home-intro {
+    max-width: none;
+
+    > p:not(.home-eyebrow):not(.home-lead) {
+      max-width: 690px;
+      margin-bottom: 1rem;
+      color: var(--global-text-color);
+      font-size: 0.98rem;
+      font-weight: 400;
+      line-height: 1.6;
+      letter-spacing: -0.006em;
+
+      a {
+        font-weight: 500;
+      }
+    }
+  }
+
+  .home-eyebrow {
+    margin-bottom: 0.65rem;
+    color: var(--global-theme-color);
+    font-size: 0.69rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+  }
+
+  .home-lead {
+    margin-bottom: 1rem;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: clamp(1.18rem, 2.2vw, 1.38rem);
+    font-weight: 500;
+    line-height: 1.48;
+    letter-spacing: -0.012em;
+  }
+
+  .research-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.42rem;
+    margin: 1.1rem 0;
+
+    span {
+      padding: 0.3rem 0.62rem;
+      border: 1px solid rgba(31, 95, 139, 0.25);
+      border-radius: 999px;
+      background: rgba(31, 95, 139, 0.07);
+      color: var(--global-theme-color);
+      font-size: 0.71rem;
+      font-weight: 600;
+    }
+  }
+
+  .home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin: 1.15rem 0 0;
+  }
+
+  .home-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.52rem 0.75rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.65rem;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    font-size: 0.76rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+      transform 160ms ease,
+      border-color 160ms ease,
+      box-shadow 160ms ease;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      text-decoration: none;
+      box-shadow: 0 8px 22px rgba(26, 46, 69, 0.09);
+    }
+  }
+
+  .home-button-primary {
+    border-color: var(--global-theme-color);
+    background: var(--global-theme-color);
+    color: #fff;
+
+    &:hover {
+      background: var(--global-hover-color);
+      color: #fff;
+    }
+  }
+
+  .home-clear {
+    clear: both;
+  }
+
+  .availability-note {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.85rem;
+    margin: 2.15rem 0 2.6rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid rgba(22, 131, 111, 0.35);
+    border-radius: 0.8rem;
+    background: rgba(22, 131, 111, 0.08);
+
+    strong,
+    span {
+      display: block;
+    }
+
+    strong {
+      margin-bottom: 0.15rem;
+      font-size: 0.82rem;
+    }
+
+    div > span {
+      color: var(--global-text-color-light);
+      font-size: 0.78rem;
+    }
+  }
+
+  .availability-dot {
+    flex: 0 0 auto;
+    width: 0.62rem;
+    height: 0.62rem;
+    margin-top: 0.3rem;
+    border-radius: 50%;
+    background: #16836f;
+    box-shadow: 0 0 0 5px rgba(22, 131, 111, 0.14);
+  }
+
+  .research-overview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+    margin: 0 0 3rem;
+  }
+
+  .research-card {
+    position: relative;
+    min-height: 178px;
+    padding: 1.1rem;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 1rem;
+    background: var(--global-card-bg-color);
+
+    &::after {
+      position: absolute;
+      right: -45px;
+      bottom: -55px;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background: rgba(31, 95, 139, 0.07);
+      content: "";
+    }
+
+    h3 {
+      margin: 1rem 0 0.5rem;
+      font-family:
+        "Roboto",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+
+    p {
+      position: relative;
+      z-index: 1;
+      margin: 0;
+      color: var(--global-text-color);
+      font-size: 0.86rem;
+      font-weight: 400;
+      line-height: 1.6;
+    }
+  }
+
+  .research-card-number {
+    display: inline-flex;
+    align-items: center;
+    min-height: 1.7rem;
+    padding: 0.15rem 0.48rem;
+    border-radius: 0.42rem;
+    background: rgba(31, 95, 139, 0.09);
+    color: var(--global-theme-color);
+    font-family: inherit;
+    font-size: 0.86rem;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.04em;
+  }
+
+  .home-section-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2.8rem 0 1rem;
+    padding-bottom: 0.65rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    h2 {
+      margin: 0;
+      font-family:
+        "Roboto",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+      font-size: 1.45rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+    }
+
+    > a {
+      flex: 0 0 auto;
+      font-size: 0.8rem;
+      font-weight: 650;
+      text-decoration: none;
+    }
+  }
+
+  .news {
+    .table-responsive {
+      max-height: none !important;
+      overflow: visible;
+    }
+
+    table {
+      margin-bottom: 0;
+    }
+
+    tr {
+      border-bottom: 1px solid var(--global-divider-color);
+    }
+
+    tr:last-child {
+      border-bottom: 0;
+    }
+
+    th,
+    td {
+      padding-top: 0.9rem;
+      padding-bottom: 0.9rem;
+      vertical-align: top;
+    }
+
+    th {
+      color: var(--global-text-color);
+      font-family: inherit;
+      font-size: 0.86rem;
+      font-weight: 600;
+      line-height: 1.45;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    td {
+      font-size: 0.94rem;
+      font-weight: 400;
+      line-height: 1.55;
+    }
+  }
+
+  .publications {
+    margin-top: 0;
+
+    ol.bibliography li {
+      margin-bottom: 0.85rem;
+      padding: 1.1rem 0;
+      border-bottom: 1px solid var(--global-divider-color);
+
+      .title {
+        margin-bottom: 0.2rem;
+        font-family:
+          "Roboto",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          sans-serif;
+        font-size: 0.98rem;
+      }
+    }
+  }
+
+  .home-social {
+    margin-top: 3rem;
+    padding-top: 1.6rem;
+    border-top: 1px solid var(--global-divider-color);
+
+    .social-label {
+      margin-bottom: 0.4rem;
+      color: var(--global-text-color-light);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .contact-icons {
+      font-size: 2.25rem;
+    }
+  }
+}
+
+html[data-theme="dark"] .academic-home {
+  .research-tags span,
+  .research-card::after {
+    background: rgba(120, 183, 223, 0.08);
+  }
+}
+
+@media (max-width: 767px) {
+  .academic-home {
+    .profile {
+      width: min(30%, 220px);
+      margin-left: 1.5rem;
+    }
+
+    .research-overview {
+      grid-template-columns: 1fr;
+    }
+
+    .research-card {
+      min-height: 0;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .academic-home {
+    .post-header {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
+    }
+
+    .post-title {
+      font-size: 2.45rem;
+    }
+
+    .desc {
+      margin: 0;
+      padding-left: 0;
+      border-left: 0;
+    }
+
+    .profile.float-right {
+      float: none !important;
+      width: min(62%, 220px);
+      margin: 0 auto 1.6rem;
+    }
+
+    .home-lead {
+      font-size: 1.16rem;
+    }
+
+    .home-button {
+      justify-content: center;
+      flex: 1 1 calc(50% - 0.65rem);
+    }
+
+    .home-section-heading h2 {
+      font-size: 1.45rem;
+    }
+
+    .news th {
+      width: 92px !important;
+      white-space: normal;
+    }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .academic-home .home-button {
+    transition: none;
+  }
+}

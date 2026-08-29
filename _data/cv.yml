@@ -1,125 +1,119 @@
-# - title: General Information
-#   type: map
-#   contents:
-#     - name: Full Name
-#       value: Yuqing Zhou
-#     # - name: Date of Birth
-#       # value: 14th March 1879
-#     - name: Languages
-#       value: Chinese, English
+- title: Research Interests
+  type: list
+  contents: Self-evolving AI, LLM Reasoning, LLM Post-training, Trustworthy AI
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD Student, Computer Science
-      institution: George Mason University, Fairfax, VA, USA
-      year: 08/2023 - Present
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: M.S., Electrical and Computer Engineering
-      institution: University of Michigan, Ann Arbor, MI, USA
-      year: 08/2019 - 04/2021
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-    - title: B.Eng., Electronics Science and Technology
-      institution: Southeast University, Nanjing, Jiangsu, China
-      year: 08/2015 - 06/2019
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: Ph.D. in Computer Science
+      institution: George Mason University, Fairfax, VA
+      year: 2023 - Present
+    - title: M.S. in Electrical and Computer Engineering, Computer Vision
+      institution: University of Michigan, Ann Arbor, MI
+      year: 2019 - 2021
+    - title: B.Eng. in Electronic Science and Technology
+      institution: Southeast University, Nanjing, China
+      year: 2015 - 2019
 
-- title: Experience
+- title: Research & Industry Experience
   type: time_table
   contents:
-    - title: Applied Science Intern
-      institution: Amazon Web Services, Seattle, WA, USA
-      year: 05/2025 - 08/2025
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+    - title: Applied Scientist Intern — Efficient LLM Reasoning
+      institution: Amazon Web Services (AWS), Seattle, WA
+      year: Summer 2026
+      description:
+        - Developed step-aware credit assignment for RL-based post-training, redistributing trajectory-level signals according to the contribution of individual reasoning steps.
+        - Reduced reasoning tokens by 24% on average on Qwen2.5-Math-7B while maintaining or improving accuracy over length-regularization, trace-compression, and fine-grained credit-assignment baselines.
+    - title: Applied Scientist Intern — Agentic Conversational AI
+      institution: Amazon Web Services (AWS), Seattle, WA
+      year: Summer 2025
+      description:
+        - Developed workflow-based control mechanisms for tool-using conversational agents, representing procedures as structured memory with prerequisite-aware action specifications.
+        - Built an offline-to-online pipeline that induces workflows from historical trajectories and uses runtime progress alignment to guide agent execution.
+        - Improved agent performance and execution reliability on ToolSandbox and tau2-bench.
     - title: Software Engineer
-      institution: Shanghai Huawei Technologies Co., Ltd, Shanghai, China
-      year: 08/2021 - 05/2023
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+      institution: Shanghai Huawei Technologies Co., Ltd., Shanghai, China
+      year: 2021 - 2023
 
-- title: Skills
-  type: list
-  contents: Pytorch, Python, C/C++, Numpy, MATLAB, Julia
-
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-# - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#   year: 2015-now
-#   description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-# - year: 1921
-#   items:
-#     - Nobel Prize in Physics
-#     - Matteucci Medal
-# - year: 2029
-#   items:
-#     - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
+- title: Publication
+  type: time_table
   contents:
-    - title: Self-evolving AI
-      # items:
-      #   - Description 1.
-      #   - Description 2.
-    - title: Continual Learning
-      # items:
-      #   - Description 1.
-      #   - Description 2.
-    - title: Trustworthy AI
-      # items:
-      #   - Robust Machine Learning, mitigating spurious correlations with causality.
-    - title: LLMs
-      # items:
-      #   - Description 1.
-      #   - Description 2.
+    - title: Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback
+      institution: arXiv:2605.28010 · Accepted to EMNLP 2026
+      year: "2026"
+      description:
+        - Bowen Wei, Nan Wang, Yuqing Zhou, Jinhao Pan, and Ziwei Zhu.
+    - title: Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective
+      institution: NAACL 2025
+      year: "2025"
+      description:
+        - Yuqing Zhou and Ziwei Zhu.
+    - title: "Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models"
+      institution: Findings of EMNLP 2024
+      year: "2024"
+      description:
+        - Yuqing Zhou, Ruixiang Tang, Ziyu Yao, and Ziwei Zhu.
+    - title: A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation
+      institution: CIKM 2023
+      year: "2023"
+      description:
+        - Yuqing Zhou, Tianshu Feng, Mingrui Liu, and Ziwei Zhu.
 
-- title: Services
+- title: Preprint
+  type: time_table
+  contents:
+    - title: "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents"
+      institution: arXiv preprint · arXiv:2601.08158
+      year: "2026"
+      description:
+        - Yuqing Zhou, Zhuoer Wang, Jie Yuan, Hong Wang, Samson Koelle, Ziwei Zhu, and Wei Niu.
+
+- title: Selected Research Projects
+  type: time_table
+  contents:
+    - title: Causally Calibrated Robust Classifier (CCR)
+      year: 2024
+      description:
+        - Developed a group-label-free framework for worst-group robustness under distribution shift using causal feature selection and inverse propensity weighting.
+        - Achieved 70.7% worst-group accuracy on CivilComments, outperforming competing methods that require explicit group labels.
+    - title: Shortcut Learning Analysis in Language Models
+      year: 2023 - 2024
+      description:
+        - Developed a taxonomy and controlled benchmarks for occurrence-, style-, and concept-based shortcuts.
+        - Evaluated BERT and Llama-family models, showing that scale alone does not consistently improve shortcut robustness.
+    - title: Generalized Propensity Learning for Post-Click Conversion Rate Prediction
+      year: "2023"
+      description:
+        - Developed a generalized propensity-learning framework that reduces bias and variance in post-click conversion prediction.
+        - Improved performance by 7% in DCG@2 and 6% in Recall@2 on the Yahoo dataset.
+
+- title: Technical Skills
   type: map
   contents:
-    - name: Journal Reviewers
-      value: TKDE, TOIS, TORS, TIST
-    - name: Conference Reviewers
-      value: ICLR (2025, 2026), AISTATS (2025), SIGKDD (2026), PAKDD (2026)
+    - name: Programming
+      value: Python, C/C++, Julia, MATLAB
+    - name: ML Frameworks
+      value: PyTorch, Hugging Face Transformers
+    - name: LLM Training & Inference
+      value: verl, TRL, vLLM
 
-- title: Teaching
+- title: Teaching Experience
   type: time_table
   contents:
-    - title: CS 455 - Computer Communications and Networking (GTA)
-      institution: George Mason University
-      year: Spring 2025
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: CS 455 - Computer Communications and Networking (GTA)
-      institution: George Mason University
-      year: Fall 2024
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: CS 657 — Mining Massive Datasets
+      institution: Graduate Teaching Assistant, George Mason University
+      year: Fall 2026
+    - title: CS 584 — Theory and Applications of Data Mining
+      institution: Graduate Teaching Assistant, George Mason University
+      year: Fall 2026
+    - title: CS 455 — Computer Communications and Networking
+      institution: Graduate Teaching Assistant, George Mason University
+      year: Fall 2024 & Spring 2025
+
+- title: Academic Service
+  type: map
+  contents:
+    - name: Conference Reviewer
+      value: ICLR (2025–2027), KDD (2026–2027), PAKDD (2025), AISTATS (2025)
+    - name: Journal Reviewer
+      value: IEEE TKDE, ACM TOIS, ACM TIST, ACM TORS

@@ -2,11 +2,33 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
-nav_order: 6
+description: Teaching experience at George Mason University.
+nav: true
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<div class="teaching-list">
+  <article class="teaching-item">
+    <div class="teaching-term">Fall 2026</div>
+    <div>
+      <h2>CS 657 — Mining Massive Datasets</h2>
+      <p>Graduate Teaching Assistant · George Mason University</p>
+    </div>
+  </article>
 
-Organize your courses by years, topics, or universities, however you like!
+  <article class="teaching-item">
+    <div class="teaching-term">Fall 2026</div>
+    <div>
+      <h2>CS 584 — Theory and Applications of Data Mining</h2>
+      <p>Graduate Teaching Assistant · George Mason University</p>
+    </div>
+  </article>
+
+  <article class="teaching-item">
+    <div class="teaching-term">Fall 2024<br>Spring 2025</div>
+    <div>
+      <h2>CS 455 — Computer Communications and Networking</h2>
+      <p>Graduate Teaching Assistant · George Mason University</p>
+    </div>
+  </article>
+</div>

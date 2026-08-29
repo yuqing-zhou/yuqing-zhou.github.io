@@ -1,148 +1,135 @@
 {
   "basics": {
     "name": "Yuqing Zhou",
-    "label": "CS PhD Student",
-    "image": "",
+    "label": "Computer Science Ph.D. Student",
+    "image": "assets/img/photo70.png",
     "email": "yzhou31@gmu.edu",
     "url": "https://yuqing-zhou.github.io",
-    "summary": "",
+    "summary": "Researcher in self-evolving AI, efficient LLM reasoning and post-training, and trustworthy machine learning.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "VA 22030",
       "city": "Fairfax",
       "countryCode": "US",
       "region": "Virginia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "yuqing-zhou",
+        "url": "https://github.com/yuqing-zhou"
+      },
+      {
+        "network": "ORCID",
+        "username": "0009-0002-8357-7704",
+        "url": "https://orcid.org/0009-0002-8357-7704"
       }
     ]
   },
   "work": [
     {
-      "name": "Amazon Web Service",
-      "position": "Applied Scientist Intern",
-      "url": "https://example.com",
-      "startDate": "2025-05-27",
-      "endDate": "2025-08-22",
-      "summary": "Research on agentic conversational AI assistants",
-      "highlights": []
+      "name": "Amazon Web Services (AWS)",
+      "position": "Applied Scientist Intern — Efficient LLM Reasoning",
+      "startDate": "2026-05",
+      "endDate": "2026-08",
+      "summary": "Developed step-aware credit assignment for efficient RL-based LLM post-training.",
+      "highlights": ["Reduced reasoning tokens by 24% on average on Qwen2.5-Math-7B while maintaining or improving accuracy."]
     },
     {
-      "name": "Shanghai Huawei Technologies Co., Ltd",
+      "name": "Amazon Web Services (AWS)",
+      "position": "Applied Scientist Intern — Agentic Conversational AI",
+      "startDate": "2025-05",
+      "endDate": "2025-08",
+      "summary": "Developed workflow-based control mechanisms for tool-using conversational agents.",
+      "highlights": ["Built an offline-to-online pipeline that learns workflows from historical trajectories and guides runtime execution."]
+    },
+    {
+      "name": "Shanghai Huawei Technologies Co., Ltd.",
       "position": "Software Engineer",
-      "url": "https://example.com",
-      "startDate": "2021-08-23",
-      "endDate": "2023-05-26",
+      "startDate": "2021-08",
+      "endDate": "2023-05",
       "summary": "",
-      "highlights": [""]
+      "highlights": []
     }
   ],
   "education": [
     {
       "institution": "George Mason University",
-      "location": "Fairfax, VA, USA",
+      "location": "Fairfax, VA",
       "url": "https://www.gmu.edu/",
       "area": "Computer Science",
-      "studyType": "PhD",
-      "startDate": "2023-08-14",
-      "endDate": "",
-      "score": "",
-      "courses": [""]
+      "studyType": "Ph.D.",
+      "startDate": "2023-08",
+      "endDate": "Present"
     },
     {
       "institution": "University of Michigan",
-      "location": "Ann Arbor, MI, USA",
+      "location": "Ann Arbor, MI",
       "url": "https://umich.edu/",
-      "area": "Electrical and Computer Engineering",
+      "area": "Electrical and Computer Engineering, Computer Vision",
       "studyType": "M.S.",
-      "startDate": "2019-08-26",
-      "endDate": "2021-04-30",
-      "score": "",
-      "courses": [""]
+      "startDate": "2019-08",
+      "endDate": "2021-04"
     },
     {
       "institution": "Southeast University",
-      "location": "Nanjing, Jiangsu, China",
+      "location": "Nanjing, China",
       "url": "https://www.seu.edu.cn/english/",
-      "area": "Electronics Science and Technology",
+      "area": "Electronic Science and Technology",
       "studyType": "B.Eng.",
-      "startDate": "2015-08-29",
-      "endDate": "2019-06-30",
-      "score": "",
-      "courses": [""]
-    }
-  ],
-  "awards": [
-    {
-      "title": "",
-      "date": "",
-      "awarder": "",
-      "url": "",
-      "summary": ""
+      "startDate": "2015-08",
+      "endDate": "2019-06"
     }
   ],
   "publications": [
     {
+      "name": "Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback",
+      "publisher": "arXiv:2605.28010 · Accepted to EMNLP 2026",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2605.28010",
+      "summary": ""
+    },
+    {
       "name": "Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective",
       "publisher": "NAACL 2025",
-      "releaseDate": "1905-06-30",
+      "releaseDate": "2025",
       "url": "https://aclanthology.org/2025.naacl-long.215/",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "summary": ""
     },
     {
       "name": "Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models",
       "publisher": "Findings of EMNLP 2024",
-      "releaseDate": "1905-03-18",
+      "releaseDate": "2024",
       "url": "https://aclanthology.org/2024.findings-emnlp.146/",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "summary": ""
     },
     {
       "name": "A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation",
       "publisher": "CIKM 2023",
-      "releaseDate": "1916-03-20",
-      "url": "https://dl.acm.org/doi/abs/10.1145/3583780.3614760",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "releaseDate": "2023",
+      "url": "https://doi.org/10.1145/3583780.3614760",
+      "summary": ""
+    },
+    {
+      "name": "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents",
+      "publisher": "arXiv preprint · arXiv:2601.08158",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.08158",
+      "summary": ""
     }
   ],
   "skills": [
     {
-      "name": "Computer Science",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": ["Pytorch", "Python", "C/C++", "MATLAB"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "Chinese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "name": "Programming",
+      "keywords": ["Python", "C/C++", "Julia", "MATLAB"]
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "name": "ML and LLM Systems",
+      "keywords": ["PyTorch", "Hugging Face Transformers", "verl", "TRL", "vLLM"]
     }
   ],
   "interests": [
     {
-      "name": "Computer Science",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["Machine Learning", "Trustworthy AI", "LLMs", "Causal Inference"]
-    }
-  ],
-  "projects": [
-    {
-      "name": "Conversational AI agents",
-      "summary": "Designed a framework for building self-evolving AI agents",
-      "highlights": ["Conversational AI agents", "Automatic", "Self-evolving"],
-      "startDate": "2025-05-27",
-      "endDate": "2025-08-22",
-      "url": ""
+      "name": "Research",
+      "keywords": ["Self-evolving AI", "LLM Reasoning", "LLM Post-training", "Trustworthy AI"]
     }
   ]
 }

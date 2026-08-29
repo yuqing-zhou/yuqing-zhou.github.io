@@ -1,6 +1,30 @@
 ---
 ---
 
+@article{wei2026confidence,
+  abbr = {EMNLP},
+  title = {Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback},
+  author = {Wei, Bowen and Wang, Nan and Zhou, Yuqing and Pan, Jinhao and Zhu, Ziwei},
+  journal = {arXiv preprint arXiv:2605.28010},
+  year = {2026},
+  arxiv = {2605.28010},
+  note = {Accepted to EMNLP 2026},
+  peer_reviewed = {true},
+  bibtex_show = {true},
+  selected = {true},
+}
+
+@article{zhou2026wise,
+  abbr = {arXiv},
+  title = {{WISE-Flow}: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents},
+  author = {Zhou, Yuqing and Wang, Zhuoer and Yuan, Jie and Wang, Hong and Koelle, Samson and Zhu, Ziwei and Niu, Wei},
+  journal = {arXiv preprint arXiv:2601.08158},
+  year = {2026},
+  arxiv = {2601.08158},
+  preprint = {true},
+  bibtex_show = {true},
+}
+
 @inproceedings{zhou-zhu-2025-fighting,
     abbr= {NAACL},
     title = "Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective",
@@ -19,6 +43,8 @@
     pages = "4264--4274",
     ISBN = "979-8-89176-189-6",
     abstract = "In text classification tasks, models often rely on spurious correlations for predictions, incorrectly associating irrelevant features with the target labels. This issue limits the robustness and generalization of models, especially when faced with out-of-distribution data where such spurious correlations no longer hold. To address this challenge, we propose the Causally Calibrated Robust Classifier (CCR), which aims to reduce models' reliance on spurious correlations and improve model robustness. Our approach integrates a causal feature selection method based on counterfactual reasoning, along with an unbiased inverse propensity weighting (IPW) loss function. By focusing on selecting causal features, we ensure that the model relies less on spurious features during prediction. We theoretically justify our approach and empirically show that CCR achieves state-of-the-art performance among methods without group labels, and in some cases, it can compete with the models that utilize group labels. Our code can be found at: https://github.com/yuqing-zhou/Causal-Learning-For-Robust-Classifier.",
+    code = {https://github.com/yuqing-zhou/Causal-Learning-For-Robust-Classifier},
+    peer_reviewed = {true},
     bibtex_show={true},
     selected={true},
 }
@@ -42,6 +68,8 @@
     doi = "10.18653/v1/2024.findings-emnlp.146",
     pages = "2586--2614",
     abstract = "Language models (LMs), despite their advances, often depend on spurious correlations, undermining their accuracy and generalizability. This study addresses the overlooked impact of subtler, more complex shortcuts that compromise model reliability beyond oversimplified shortcuts. We introduce a comprehensive benchmark that categorizes shortcuts into occurrence, style, and concept, aiming to explore the nuanced ways in which these shortcuts influence the performance of LMs. Through extensive experiments across traditional LMs, large language models, and state-of-the-art robust models, our research systematically investigates models' resilience and susceptibilities to sophisticated shortcuts. Our benchmark and code can be found at: https://github.com/yuqing-zhou/shortcut-learning-in-text-classification.",
+    code = {https://github.com/yuqing-zhou/shortcut-learning-in-text-classification},
+    peer_reviewed = {true},
     bibtex_show={true},
     selected={true},
 }
@@ -56,8 +84,9 @@
   url = {https://doi.org/10.1145/3583780.3614760},
   doi = {10.1145/3583780.3614760},
   abstract = {This paper addresses the critical gap in the unbiased estimation of post-click conversion rate (CVR) in recommender systems. Existing CVR prediction methods, such as Inverse Propensity Score (IPS) and various Doubly Robust (DR) based estimators, overlook the impact of propensity estimation on the model bias and variance, thus leading to a debiasing performance gap. We propose a Generalized Propensity Learning (GPL) framework to directly minimize the bias and variance in CVR prediction models. The proposed method works as a complement to existing methods like IPS, DR, MRDR, and DRMSE to improve prediction performance by reducing their bias and variance. Extensive experiments on real-world datasets and semi-synthetic datasets demonstrate the significant performance promotion brought by our proposed method. Data and code can be found at: https://github.com/yuqing-zhou/GPL.},
-  booktitle = {Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  code = {https://github.com/yuqing-zhou/GPL},
   location = {Birmingham, United Kingdom},
+  peer_reviewed = {true},
   bibtex_show={true},
   selected={true},
 }

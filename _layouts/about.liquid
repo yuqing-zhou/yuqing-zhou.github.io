@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post academic-home">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        <span>{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
@@ -27,8 +27,12 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt %}
+          {% if profile_image_alt == blank %}
+            {% capture profile_image_alt %}{{ site.first_name }} {{ site.last_name }}{% endcapture %}
+          {% endif %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
@@ -42,9 +46,10 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
+      <div class="home-section-heading">
+        <h2>News</h2>
+        <a href="{{ '/news/' | relative_url }}">All updates <span aria-hidden="true">&rarr;</span></a>
+      </div>
       {% include news.liquid limit=true %}
     {% endif %}
 
@@ -58,15 +63,17 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
-      </h2>
+      <div class="home-section-heading">
+        <h2>Selected Publications</h2>
+        <a href="{{ '/publications/' | relative_url }}">View all <span aria-hidden="true">&rarr;</span></a>
+      </div>
       {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
+      <div class="social home-social">
+        <p class="social-label">Find me online</p>
         <div class="contact-icons">{% include social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
@@ -76,9 +83,5 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
-
-    <div style="width: 150px; margin: 20px auto 0; text-align: center;">
-      <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=b7q9fqzR8XSZStbZtBzkrk6yKt9O3zVAW08cLzZ7K_E"></script>
-    </div>
   </article>
 </div>
