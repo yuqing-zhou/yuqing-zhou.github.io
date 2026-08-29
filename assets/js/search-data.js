@@ -55,8 +55,8 @@ ninja.data = [{
           section: "News",},{id: "news-i-returned-to-aws-as-an-applied-scientist-intern-to-work-on-efficient-llm-reasoning-and-rl-based-post-training",
           title: 'I returned to AWS as an Applied Scientist Intern to work on efficient...',
           description: "",
-          section: "News",},{id: "news-our-paper-confidence-orchestrated-self-evolution-against-uncertain-llm-feedback-was-accepted-to-emnlp-2026",
-          title: 'Our paper “Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback” was accepted to EMNLP 2026....',
+          section: "News",},{id: "news-the-paper-confidence-orchestrated-self-evolution-against-uncertain-llm-feedback-has-been-accepted-to-emnlp-2026-congratulations-to-all-the-co-authors",
+          title: 'The paper “Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback” has been accepted to EMNLP...',
           description: "",
           section: "News",},{
       id: 'light-theme',
