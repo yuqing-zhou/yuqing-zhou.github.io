@@ -4,7 +4,7 @@
 
 .academic-home {
   font-family:
-    "Roboto",
+    "Source Sans 3",
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
@@ -23,26 +23,23 @@
 
   .post-title {
     margin: 0;
-    font-family:
-      "Roboto",
-      -apple-system,
-      BlinkMacSystemFont,
-      "Segoe UI",
-      sans-serif;
-    font-size: clamp(2.4rem, 4.6vw, 3.25rem);
-    font-weight: 500;
-    line-height: 1.04;
-    letter-spacing: -0.045em;
+    font-family: "Newsreader", Georgia, serif;
+    font-size: clamp(2.5rem, 4.4vw, 3.2rem);
+    font-weight: 600;
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    word-spacing: 0.02em;
   }
 
   .desc {
-    max-width: 430px;
+    max-width: 470px;
     margin: 0 0 0.28rem;
     padding-left: 1rem;
     border-left: 2px solid var(--global-theme-color);
     color: var(--global-text-color-light);
-    font-size: 0.92rem;
-    line-height: 1.45;
+    font-size: 1.02rem;
+    font-weight: 400;
+    line-height: 1.42;
   }
 
   .profile {
@@ -95,16 +92,16 @@
   .home-eyebrow {
     margin-bottom: 0.65rem;
     color: var(--global-theme-color);
-    font-size: 0.69rem;
+    font-size: 0.78rem;
     font-weight: 700;
-    letter-spacing: 0.14em;
+    letter-spacing: 0.12em;
   }
 
   .home-lead {
     margin-bottom: 1rem;
-    font-family: "Roboto", Arial, sans-serif;
+    font-family: inherit;
     font-size: clamp(1.18rem, 2.2vw, 1.38rem);
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.48;
     letter-spacing: -0.012em;
   }
@@ -240,7 +237,7 @@
     h3 {
       margin: 1rem 0 0.5rem;
       font-family:
-        "Roboto",
+        "Source Sans 3",
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
@@ -287,7 +284,7 @@
     h2 {
       margin: 0;
       font-family:
-        "Roboto",
+        "Source Sans 3",
         -apple-system,
         BlinkMacSystemFont,
         "Segoe UI",
@@ -358,7 +355,7 @@
       .title {
         margin-bottom: 0.2rem;
         font-family:
-          "Roboto",
+          "Source Sans 3",
           -apple-system,
           BlinkMacSystemFont,
           "Segoe UI",
