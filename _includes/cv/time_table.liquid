@@ -53,6 +53,9 @@
               </tbody>
             </table>
           {% endif %}
+          {% if content.venue %}
+            <div class="cv-entry-venue">{{ content.venue }}</div>
+          {% endif %}
           {% if content.maindescription %}
             <div>{{ content.maindescription }}</div>
           {% endif %}

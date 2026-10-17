@@ -123,6 +123,13 @@ table.institution {
   margin-bottom: 1rem;
 }
 
+.cv-entry-venue {
+  margin: -0.1rem 0 0.45rem;
+  color: var(--global-text-color-light);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
 @media (max-width: 767px) {
   .cv-timeline-row {
     grid-template-columns: 1fr;

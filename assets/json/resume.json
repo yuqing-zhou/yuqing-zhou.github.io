@@ -81,8 +81,15 @@
   ],
   "publications": [
     {
+      "name": "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents",
+      "publisher": "Accepted to Findings of AACL 2026",
+      "releaseDate": "2027",
+      "url": "https://arxiv.org/abs/2601.08158",
+      "summary": ""
+    },
+    {
       "name": "Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback",
-      "publisher": "arXiv:2605.28010 · Accepted to EMNLP 2026",
+      "publisher": "Accepted to EMNLP 2026",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2605.28010",
       "summary": ""
@@ -109,10 +116,10 @@
       "summary": ""
     },
     {
-      "name": "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents",
-      "publisher": "arXiv preprint · arXiv:2601.08158",
+      "name": "Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning",
+      "publisher": "arXiv preprint · arXiv:2609.27156",
       "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2601.08158",
+      "url": "https://arxiv.org/abs/2609.27156",
       "summary": ""
     }
   ],

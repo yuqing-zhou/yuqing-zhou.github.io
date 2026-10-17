@@ -38,23 +38,28 @@
 - title: Publication
   type: time_table
   contents:
+    - title: "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents"
+      venue: Accepted to Findings of AACL 2026
+      year: "2026"
+      description:
+        - Yuqing Zhou, Zhuoer Wang, Jie Yuan, Hong Wang, Samson Koelle, Ziwei Zhu, and Wei Niu.
     - title: Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback
-      institution: arXiv:2605.28010 · Accepted to EMNLP 2026
+      venue: Accepted to EMNLP 2026
       year: "2026"
       description:
         - Bowen Wei, Nan Wang, Yuqing Zhou, Jinhao Pan, and Ziwei Zhu.
     - title: Fighting Spurious Correlations in Text Classification via a Causal Learning Perspective
-      institution: NAACL 2025
+      venue: NAACL 2025
       year: "2025"
       description:
         - Yuqing Zhou and Ziwei Zhu.
     - title: "Navigating the Shortcut Maze: A Comprehensive Analysis of Shortcut Learning in Text Classification by Language Models"
-      institution: Findings of EMNLP 2024
+      venue: Findings of EMNLP 2024
       year: "2024"
       description:
         - Yuqing Zhou, Ruixiang Tang, Ziyu Yao, and Ziwei Zhu.
     - title: A Generalized Propensity Learning Framework for Unbiased Post-Click Conversion Rate Estimation
-      institution: CIKM 2023
+      venue: CIKM 2023
       year: "2023"
       description:
         - Yuqing Zhou, Tianshu Feng, Mingrui Liu, and Ziwei Zhu.
@@ -62,11 +67,11 @@
 - title: Preprint
   type: time_table
   contents:
-    - title: "WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents"
-      institution: arXiv preprint · arXiv:2601.08158
+    - title: "Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning"
+      venue: arXiv preprint · arXiv:2609.27156
       year: "2026"
       description:
-        - Yuqing Zhou, Zhuoer Wang, Jie Yuan, Hong Wang, Samson Koelle, Ziwei Zhu, and Wei Niu.
+        - Yuqing Zhou, Hong Wang, Manqing Mao, Zhuoer Wang, Samson Koelle, Jie Yuan, Yanjun Lin, James Feng, Nikki Lijing Kuang, Ziwei Zhu, and Wei Niu.
 
 - title: Selected Research Projects
   type: time_table
