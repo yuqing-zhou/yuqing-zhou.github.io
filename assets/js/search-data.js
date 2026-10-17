@@ -58,6 +58,9 @@ ninja.data = [{
           section: "News",},{id: "news-the-paper-confidence-orchestrated-self-evolution-against-uncertain-llm-feedback-has-been-accepted-to-emnlp-2026-congratulations-to-all-the-co-authors",
           title: 'The paper “Confidence-Orchestrated Self-Evolution against Uncertain LLM Feedback” has been accepted to EMNLP...',
           description: "",
+          section: "News",},{id: "news-our-paper-wise-flow-workflow-induced-structured-experience-for-self-evolving-conversational-service-agents-has-been-accepted-to-findings-of-aacl-2026-thanks-to-all-the-co-authors",
+          title: 'Our paper “WISE-Flow: Workflow-Induced Structured Experience for Self-Evolving Conversational Service Agents” has been...',
+          description: "",
           section: "News",},{
       id: 'light-theme',
       title: 'Change theme to light',
